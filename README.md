@@ -22,14 +22,7 @@ Each image card includes a smooth hover effect:
 - The image slightly zooms or dims (depending on your CSS)
 - It gives visual feedback to the user, enhancing interactivity
 
-You can customize the effect using CSS transitions or filters, such as:
-
-```css
-.card img {
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.card:hover img {
+you can check this site here - https://akankshaing.github.io/Gallery/
     transform: scale(1.05);
     filter: brightness(0.8);
 }
